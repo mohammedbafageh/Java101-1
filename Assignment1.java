@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /*
 Ask the user to enter two float digits. For example ( 3.5 and 11.25 )
 
