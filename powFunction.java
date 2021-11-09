@@ -1,4 +1,4 @@
-public class powFunction {
+public class PowFunction {
 
     static float pow(float num){
         return num * num;
