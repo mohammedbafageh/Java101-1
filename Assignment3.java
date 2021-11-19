@@ -1,5 +1,20 @@
 import java.util.Scanner;
+/**
+[1]:Smith
+[2]:Jodi
+[3]:Bernete
+[4]:Faith
 
+[2]:Jodi has 5 of 100 in the course math
+[4]:Faith has 70 of 100 in the course math
+[3]:Bernete has 49 of 100 in the course math
+
+The student [Jodi] percentage is 15.00%
+
+[4]:Faith has the highest 70 grade in math
+
+[2]:Jodi has the lowest 5 grade in math
+*/
 public class Assignment3 {
     /**
      * This function will help you to cast string into int
