@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Main {
 
@@ -16,5 +16,32 @@ public class Main {
 
 
         //اطبع نتيجة استدعاء دالة الجمع
+    }
+}
+*/
+import java.util.Scanner;
+
+public class Main {
+
+
+    public static float add1(float y,float z) {
+        float x =y+z;
+        
+     return x;   
+    }
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Enter the first number:  ");
+        
+        float num1 = scan.nextFloat();
+        
+        System.out.println("Enter Second number: ");
+        
+        float num2 = scan.nextFloat();
+        
+        System.out.println("the summation for two number is: "+add1(num1,num2));    
+        
     }
 }
